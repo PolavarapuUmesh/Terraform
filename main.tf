@@ -85,7 +85,7 @@ resource "aws_default_security_group" "jenkins_sg" {
 
 #launch a ec2_machine
 resource "aws_instance" "jenkins_instance"{
-  ami = "ami-01f51be1f4595f42b"
+  ami = "ami_id"
   instance_type = "t3.micro"
   key_name="server"
 
